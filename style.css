@@ -73,7 +73,7 @@ li {
 
 .hero-main-text button {
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     max-width: 8rem;
     height: auto;
     background-color: #3882f6;
@@ -82,6 +82,7 @@ li {
 }
 
 .hero-content img {
+    width: 100%;
     flex: 1;
 }
 
@@ -94,10 +95,14 @@ li {
 .info-sec h1 {
     text-align: center;
     margin: 3rem 0;
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .info-content {
     display: flex;
+    gap: 2rem;
 }
 
 .info-be, .info-fe, .info-db, .info-dev {
@@ -108,4 +113,12 @@ li {
 .info-be img, .info-fe img, .info-db img, .info-dev img {
     width: 100%;
     flex: 1;
+    border: 0.2rem solid #3882f6;
+    border-radius: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-be p, .info-fe p, .info-db p, .info-dev p {
+    text-align: center;
+    color: #1f2937;
 }
