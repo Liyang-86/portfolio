@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -103,23 +103,23 @@ li {
 
 .info-content {
     display: flex;
-    flex: 0 1 auto;
     gap: 2rem;
 }
 
-.info-lang, .info-fe, .info-be, .info-inf {
+.info-lang, .info-fs, .info-db, .info-inf {
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
-.info-lang img, .info-fe img, .info-be img, .info-inf img {
+.info-lang img, .info-fs img, .info-db img, .info-inf img {
+    max-width: 100%;
     border: 0.2rem solid #3882f6;
     border-radius: 0.75rem;
     margin-bottom: 0.5rem;
 }
 
-.info-lang p, .info-fe p, .info-be p, .info-inf p {
-    flex: 1;
+.info-lang p, .info-fs p, .info-db p, .info-inf p {
     text-align: center;
     color: #1f2937;
 }
