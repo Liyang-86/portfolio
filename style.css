@@ -44,6 +44,7 @@ li {
     font-size: 1rem;
     font-weight: 900;
     white-space: nowrap;
+    margin-top: 0.5rem;
 }
 
 .header ul {
@@ -81,5 +82,30 @@ li {
 }
 
 .hero-content img {
+    flex: 1;
+}
+
+.info-sec {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem 6rem;
+}
+
+.info-sec h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.info-content {
+    display: flex;
+}
+
+.info-be, .info-fe, .info-db, .info-dev {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-be img, .info-fe img, .info-db img, .info-dev img {
+    width: 100%;
     flex: 1;
 }
